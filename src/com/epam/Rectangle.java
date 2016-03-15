@@ -24,14 +24,14 @@ public class Rectangle extends Shape implements Comparable{
     @Override
     public double calcArea() {
 
-        double area = getHeight()* getWidht();
+        double area = getHeight()* getWidht();    //better to write just height*width
 
         return area;
     }
 
     @Override
     public String toString() {
-        return "This is " + this.getShapeName()+ ","+
+        return "This is " + this.getShapeName()+ ","+ //the same "this"
                 "color is:" + this.getShapeColor()+ ", Height = " + this.getHeight() + ", Width = "+ this.getWidht();
 
     }
