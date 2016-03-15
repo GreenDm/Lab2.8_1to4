@@ -25,7 +25,7 @@ public class Circle extends Shape implements Comparable{
 
     @Override
     public String toString() {
-        return "This is " + this.getShapeName()+ ","+
+        return "This is " + this.getShapeName()+ ","+ //don't need use this keyword
                 "color is:" + this.getShapeColor()+ ", radius = " +
                 getRadius();
     }
