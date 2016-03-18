@@ -29,8 +29,8 @@ public class Triangle extends Shape implements Comparable {
 
     @Override
     public String toString() {
-        return "This is " + this.getShapeName()+ ","+  //don't use this keyword and it's better to get values directly from variable(field) not using get method
-                "color is:" + this.getShapeColor()+ ", a = " + getA() + ", b = "+ getB()+ ", c = "+getC();
+        return "This is " + getShapeName()+ ","+  //don't use this keyword and it's better to get values directly from variable(field) not using get method
+                "color is:" + getShapeColor()+ ", a = " + getA() + ", b = "+ getB()+ ", c = "+getC();
     }
 
     @Override
